@@ -1,0 +1,5 @@
+class Student {
+public:
+    Student() { std::cout << "생성자 호출"; }
+    ~Student() { std::cout << "소멸자 호출"; }
+};
