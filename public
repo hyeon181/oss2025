@@ -1,0 +1,8 @@
+class Animal {
+public:
+    void sound() { std::cout << "동물 소리"; }
+};
+class Dog : public Animal {
+public:
+    void sound() { std::cout << "멍멍"; }
+};
