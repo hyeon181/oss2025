@@ -1,0 +1,4 @@
+#include <fstream>
+std::ofstream out("output.txt");
+out << "파일 출력!";
+out.close();
