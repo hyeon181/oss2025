@@ -1,0 +1,8 @@
+class Shape {
+public:
+    virtual void draw() { std::cout << "도형"; }
+};
+class Circle : public Shape {
+public:
+    void draw() override { std::cout << "원"; }
+};
