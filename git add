@@ -1,0 +1,4 @@
+$ git add
+$ git commit -m "+w add_ 1"
+Local + crea file
+$ git push -u origin main
