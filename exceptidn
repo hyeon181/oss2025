@@ -1,0 +1,5 @@
+try {
+    throw std::runtime_error("에러 발생");
+} catch (std::exception& e) {
+    std::cout << e.what();
+}
