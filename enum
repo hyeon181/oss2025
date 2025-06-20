@@ -1,0 +1,2 @@
+enum Color { RED, GREEN, BLUE };
+Color c = GREEN;
