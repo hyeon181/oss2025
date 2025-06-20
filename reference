@@ -1,0 +1,4 @@
+int a = 5;
+int& ref = a;
+ref = 10;
+std::cout << a; // 10
